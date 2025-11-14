@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background-color: #f4f6f9;
+    color:#333
+
+}
+.box{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0,1);
+}
+.sidebar {
+    width: 30%;
+    background:rgb(123, 152, 191);
+    color: #150303;
+    padding:  2rem 1rem;
+    text-align: center;
+}
+.sidebar .pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+}
+.sidebar h2{
+    font-size: 1.5rem;
+}
+.sidebar .role {
+    font-size: 0.9rem;
+    color: rgb(23, 33, 226);
+}
+.sidebar hr {
+    border: 0;
+    border-top: 1px solid #e2e2e2;
+    margin: 1rem 0;
+}
+.sidebar .contact,
+.sidebar .socials {
+    margin: 1rem 0;
+}
+.sidebar .socials a{
+    display: block;
+    color: rgb(108, 17, 244);
+    text-decoration: none;
+    margin-bottom: 6px;
+
+}
+.sidebar .skils hr{
+    margin: 1rem 0 0.5rem;
+}
+.sidebar .skils ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .skils li{
+    background-color: antiquewhite;
+    margin: 5px 0;
+    padding: 6px;
+    border-radius: 2rem;
+} 
+.main-content {
+    width: 70%;
+    padding: 2rem;
+}
+.main-content section{
+    margin-bottom: 1.5rem;
+}
+.main-content h1{
+    color:lightcoral;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #0078ff;
+    display: inline-block;
+}
+.main-content ul{
+    margin-top: 0.5rem;
+    margin-left: 20px;
+
+}
+.edu {
+    margin-bottom: 10px;
+}
+strong{
+    color:lightseagreen;
+}
+.achievements{
+    color:lightslategray;
+
+}
